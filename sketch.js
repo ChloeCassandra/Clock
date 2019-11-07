@@ -3,7 +3,7 @@
 var t=[];
 
 function setup() { 
-  createCanvas(400, 400);
+  createCanvas(300, 300);
 } 
 
 function draw() { 
@@ -28,14 +28,4 @@ function draw() {
   fill(250,79,280);
   arc(200,200,100,100,1.5*PI,(second()/30*PI-HALF_PI+0.0001));
 
-   
-  fill(255);
-  textAlign(RIGHT);
-  text(hour()%12,184.6,380);
-  text(":",190,380);
-  textAlign(CENTER);
-  text(minute(),200,380);
-  text(":",210,380);
-  textAlign(LEFT);
-  text(second(),213.5,380);
 }
